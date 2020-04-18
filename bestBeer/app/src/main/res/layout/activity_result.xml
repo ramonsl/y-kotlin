@@ -27,19 +27,21 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/tv_bestBeer"
+        android:id="@+id/beerResult"
         android:layout_width="188dp"
         android:layout_height="54dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|top"
-        android:text="tv_bestBeer"
+        android:text="beerResult"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
         app:fontFamily="@font/montserrat"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="338dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/espuma_bg" />
 
     <TextView
         android:id="@+id/resultBeer"
@@ -54,8 +56,12 @@
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         app:fontFamily="@font/montserrat"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="410dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/espuma_bg"
+        app:layout_constraintVertical_bias="0.622" />
 
     <TextView
         android:id="@+id/compared"
@@ -70,8 +76,12 @@
         android:textColor="@color/colorPrimary"
         android:textSize="16sp"
         app:fontFamily="@font/montserrat"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="581dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/espuma_bg"
+        app:layout_constraintVertical_bias="0.87" />
 
     <TextView
         android:id="@+id/resultBeer_valorLitro"
@@ -86,8 +96,12 @@
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         app:fontFamily="@font/montserrat"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="492dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
 
     <TextView
         android:id="@+id/description"

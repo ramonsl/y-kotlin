@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
             val intent= Intent(this,SecondBeerActivity::class.java)
             startActivity(intent)
         })
@@ -33,4 +32,5 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+    
 }

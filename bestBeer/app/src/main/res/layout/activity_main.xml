@@ -63,7 +63,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/tv_bestBeer"
+        android:id="@+id/firstbestBeer"
         android:layout_width="192dp"
         android:layout_height="28dp"
         android:layout_alignParentLeft="true"

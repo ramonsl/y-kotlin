@@ -39,7 +39,6 @@
         android:text="@string/description"
         android:textColor="@color/colorAccent"
         android:textSize="16sp"
-        android:contentDescription="@string/description"
         app:fontFamily="@font/montserrat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +56,6 @@
         android:textColor="@color/colorAccent"
         android:textSize="56sp"
         app:fontFamily="@font/montserrat"
-        android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,26 +63,25 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/secondBeer"
-        android:layout_width="222dp"
-        android:layout_height="32dp"
+        android:id="@+id/tv_bestBeer"
+        android:layout_width="270dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="24dp"
-        android:contentDescription="@string/secondBeer"
         android:gravity="top"
         android:text="@string/secondBeer"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         app:fontFamily="@font/montserrat"
-        app:layout_constraintBottom_toTopOf="@+id/et_beerName"
-        app:layout_constraintStart_toStartOf="@+id/et_beerName"
+        app:layout_constraintBottom_toTopOf="@+id/et_beerName2"
+        app:layout_constraintStart_toStartOf="@+id/et_beerName2"
         app:layout_constraintTop_toBottomOf="@+id/description"
-        app:layout_constraintVertical_bias="1.0"
-        android:layout_alignParentStart="true" />
+        app:layout_constraintVertical_bias="0.896" />
 
     <EditText
-        android:id="@+id/et_secondBeerName"
+        android:id="@+id/et_beerName2"
         android:layout_width="327dp"
         android:layout_height="46dp"
         android:layout_marginBottom="16dp"
@@ -99,34 +96,34 @@
         app:backgroundTint="@color/colorPrimary"
         app:fontFamily="@font/montserrat"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/et_mls"
+        app:layout_constraintStart_toStartOf="@+id/et_mls2"
         app:layout_constraintTop_toTopOf="@+id/espuma_bg"
         app:layout_constraintVertical_bias="0.562"
-        android:autofillHints="" />
+        android:autofillHints="" tools:targetApi="o" />
 
     <EditText
-        android:id="@+id/et_mlsSecond"
+        android:id="@+id/et_mls2"
         android:layout_width="327dp"
         android:layout_height="46dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:alpha="0.7"
-        android:contentDescription="@string/adicione_quantidade_em_ml"
+        android:contentDescription="@string/mls"
         android:ems="10"
         android:hint="@string/mls"
-        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:text="@string/mls"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         app:backgroundTint="@color/colorPrimary"
         app:fontFamily="@font/montserrat"
-        app:layout_constraintBottom_toTopOf="@+id/et_price"
-        app:layout_constraintStart_toStartOf="@+id/et_price"
-        app:layout_constraintTop_toBottomOf="@+id/et_beerName" />
+        app:layout_constraintBottom_toTopOf="@+id/et_price2"
+        app:layout_constraintStart_toStartOf="@+id/et_price2"
+        app:layout_constraintTop_toBottomOf="@+id/et_beerName2"
+        android:autofillHints="" tools:targetApi="o" />
 
     <EditText
-        android:id="@+id/et_priceSecond"
+        android:id="@+id/et_price2"
         android:layout_width="327dp"
         android:layout_height="46dp"
         android:layout_marginBottom="208dp"
@@ -161,7 +158,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.029"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_price"
+        app:layout_constraintTop_toBottomOf="@+id/et_price2"
         app:layout_constraintVertical_bias="1.0"
         android:layout_alignParentStart="true" />
 
@@ -185,7 +182,7 @@
         android:id="@+id/bigbubbledown"
         android:layout_width="57dp"
         android:layout_height="58dp"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentLeft="false"
         android:layout_alignParentTop="true"
         android:alpha="10"
         android:background="@drawable/bigbubblefull"
@@ -195,7 +192,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.439"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="false" />
 
     <View
         android:id="@+id/bigbubble"
@@ -206,7 +203,6 @@
         android:alpha="10"
         android:background="@drawable/bigbubblefull"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.911"
         app:layout_constraintStart_toStartOf="parent"
@@ -218,11 +214,11 @@
     <!-- BUBBLES END -->
 
     <ImageButton
-        android:id="@+id/buttonDone"
+        android:id="@+id/buttonNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00FFFFFF"
-        android:contentDescription="@string/doneButton"
+        android:contentDescription="@string/nextButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
