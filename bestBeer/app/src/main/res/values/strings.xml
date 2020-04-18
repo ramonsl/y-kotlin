@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">best<b>Beer</b></string>
+    <string name="description">Compare cervejas e pague menos</string>
+    <string name="firstBeer"><b>Primeira</b> cerveja</string>
+    <string name="secondBeer"><b>Segunda</b> cerveja</string>
+
+
+
+    <string name="beerName">Nome da Cerveja</string>
+    <string name="mls">mls (1L = 1000mls)</string>
+    <string name="price">Preço</string>
+
+    <string name="backButton">Botão para voltar</string>
+    <string name="nextButton">Botão Próximo</string>
+    <string name="doneButton">Botão de Resultado</string>
+    <string name="helpButton">Botão de Ajuda</string>
+
+    <string name="help">help</string>
+    <string name="adicione_quantidade_em_ml">Adicione quantidade em ML</string>
+
+
+
+    <string name="resultBeer">é a cerveja com <b>melhor custo/benefício</b></string>
+    <string name="resultBeer_valorLitro">Valor por <b>Litro</b>:</string>
+    <string name="resultPrice">R$ <b>{$price}</b></string>
+    <string name="compared">Comparada com <b>NOME2</b>. Valor Litro: R$ 00,00</string>
+
+</resources>
