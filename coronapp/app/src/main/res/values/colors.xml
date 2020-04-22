@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- NEUTRAL ZONE -->
+    <color name="colorPrimary">#55BEEB</color>
+    <color name="colorPrimaryDark">#73C6EA</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+
+    <!-- DANGER ZONE -->
+    <color name="pinkcolorPrimary">#F07281</color>
+    <color name="pinkcolorPrimaryDark">#EB5569</color>
+    <color name="pinkcolorAccent">#FFFFFF</color>
+
+    <!-- GREEN ZONE -->
+    <color name="greencolorPrimary">#9FD18E</color>
+    <color name="greencolorPrimaryDark">#8CBC7C</color>
+    <color name="greencolorAccent">#FFFFFF</color>
+</resources>
