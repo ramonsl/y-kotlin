@@ -24,5 +24,7 @@
     <string name="resultBeer_valorLitro">Valor por <b>Litro</b>:</string>
     <string name="resultPrice">R$ <b>{$price}</b></string>
     <string name="compared">Comparada com <b>NOME2</b>. Valor Litro: R$ 00,00</string>
+    <string name="error_no_data">Insira os dados corretamente</string>
+
 
 </resources>
