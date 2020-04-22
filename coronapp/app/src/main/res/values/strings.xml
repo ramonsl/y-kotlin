@@ -9,5 +9,9 @@
     <string name="suspectcases">Casos <b>suspeitos</b>:</string>
     <string name="deathtoll">Óbitos:</string>
     <string name="healed"><b>Curados</b>:</string>
+    <string name="title_activity_blue">BlueActivity</string>
+
+    <string name="selectCapital">Selecione a capital</string>
+    <string name="title_activity_pink">PinkActivity</string>
 
 </resources>
