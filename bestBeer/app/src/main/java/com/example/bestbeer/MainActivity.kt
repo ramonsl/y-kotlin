@@ -19,20 +19,14 @@ class MainActivity : AppCompatActivity() {
         buttonNext.setOnClickListener(View.OnClickListener{
 
 
+            var name =et_beerName.text.toString()
             var price1 = et_price.text.toString().toDouble()
             var ml1 = et_mls.text.toString().toDouble()
 
-
-
-            if(price1.toString().isNotEmpty() && ml1.toString().isNotEmpty()){
-                var firstBeerResult = (price1/ml1)*1000
-
-            }
-
-
+            val beer1 =Beer(name,ml1,price1)
 
             val intent = Intent(this, SecondBeerActivity::class.java)
-
+            intent.putExtra("beer1",beer1)
             startActivity(intent)
         })
     }

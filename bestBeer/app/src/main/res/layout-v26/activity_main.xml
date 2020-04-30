@@ -86,11 +86,11 @@
         android:layout_height="46dp"
         android:layout_marginBottom="16dp"
         android:alpha="0.7"
+        android:autofillHints=""
         android:contentDescription="@string/beerName"
         android:ems="10"
         android:hint="@string/beerName"
         android:inputType="textPersonName"
-        android:text="@string/beerName"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         app:backgroundTint="@color/colorPrimary"
@@ -98,8 +98,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/et_mls"
         app:layout_constraintTop_toTopOf="@+id/espuma_bg"
-        app:layout_constraintVertical_bias="0.562"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.562" />
 
     <EditText
         android:id="@+id/et_mls"
@@ -108,19 +107,18 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:alpha="0.7"
+        android:autofillHints=""
         android:contentDescription="@string/mls"
         android:ems="10"
         android:hint="@string/mls"
         android:inputType="textPersonName"
-        android:text="@string/mls"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         app:backgroundTint="@color/colorPrimary"
         app:fontFamily="@font/montserrat"
         app:layout_constraintBottom_toTopOf="@+id/et_price"
         app:layout_constraintStart_toStartOf="@+id/et_price"
-        app:layout_constraintTop_toBottomOf="@+id/et_beerName"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/et_beerName" />
 
     <EditText
         android:id="@+id/et_price"
@@ -129,11 +127,11 @@
         android:layout_marginBottom="208dp"
         android:alpha="0.7"
         android:autoText="false"
+        android:autofillHints=""
         android:contentDescription="@string/price"
         android:ems="10"
         android:hint="@string/price"
         android:inputType="textPersonName"
-        android:text="@string/price"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         app:backgroundTint="@color/colorPrimary"
@@ -141,8 +139,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.437"
-        app:layout_constraintStart_toStartOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <View
         android:id="@+id/bigbubblefull"
